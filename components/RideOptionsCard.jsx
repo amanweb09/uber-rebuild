@@ -65,7 +65,7 @@ const RideOptionsCard = () => {
               source={{ uri: item.image }} />
             <View style={tw`-ml-6`}>
               <Text style={tw`font-semibold text-lg`}>{item.title}</Text>
-              <Text>{travelTimeInfo.duration.text}</Text>
+              <Text>{travelTimeInfo?.duration?.text}</Text>
             </View>
             <Text style={tw`text-lg`}>
 
